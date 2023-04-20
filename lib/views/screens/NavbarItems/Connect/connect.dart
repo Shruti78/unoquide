@@ -55,8 +55,8 @@ class _ConnectState extends State<Connect> {
               height: height * .4,
               imgUrl: 'assets/Images/Connect/messenger.png',
               text: "Messenger",
-              onTap: () {
-                getSubject();
+              onTap: () async {
+                await getSubject();
               },
             ),
           ],
